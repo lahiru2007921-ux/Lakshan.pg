@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAKSHAN.PG</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a0f1a;
+            color: white;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: linear-gradient(to right, #021526, #0f3c5c);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+
+        .menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: #00d4ff;
+        }
+
+        /* IMAGE STRIP */
+        .gallery {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .gallery img {
+            width: 14.28%;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        }
+
+        .hero img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 10px 0;
+        }
+
+        .hero span {
+            color: #00d4ff;
+        }
+
+        .hero p {
+            letter-spacing: 5px;
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        /* SECTION */
+        .section {
+            padding: 50px;
+            text-align: center;
+            background: #111;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 30%;
+            padding: 20px;
+            background: #1b1b1b;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            color: #00d4ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">LAKSHAN<span>.PG</span></div>
+
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- IMAGE STRIP -->
+    <div class="gallery">
+        <img src="https://picsum.photos/300/200?1">
+        <img src="https://picsum.photos/300/200?2">
+        <img src="https://picsum.photos/300/200?3">
+        <img src="https://picsum.photos/300/200?4">
+        <img src="https://picsum.photos/300/200?5">
+        <img src="https://picsum.photos/300/200?6">
+        <img src="https://picsum.photos/300/200?7">
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png">
+        <h1>LAKSHAN<span>.PG</span></h1>
+        <p>DIGITAL SOLUTIONS</p>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="section">
+        <h2>Our Services</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Photography</h3>
+                <p>Landscape & Nature Photography services.</p>
+            </div>
+
+            <div class="card">
+                <h3>Commercial Shoots</h3>
+                <p>Professional shoots for business needs.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cinematic Style</h3>
+                <p>Creative documentary style visuals.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
